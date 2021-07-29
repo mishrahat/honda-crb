@@ -11,10 +11,72 @@
 /* media query part */
 
 @media only screen and (max-width: 600px) {
+      .first-line {
+    margin-top: 20px;
+    }
+    .purchase-button {
+        padding: 5px;
+    }
+
+    .feature-bike {
+        position: relative;
+        left: 35px;
+    }
+
+    .users{
+         position: relative;
+         right: 50px;
+    }
+
+    #user-2 {
+        width: 230px;
+    }
+
+    #user-3 {
+        position: relative;
+        right: 25px;
+    }
+
     .user-3 {
         position: relative;
-        right: 75px;
+        right: 50px;
     }
+
+    .faq-image {
+        width: 300px;
+        position: relative;
+        left: 20px;
+    }
+
+    .accordion {
+        margin-top: 20px;
+    }
+
+    .cards {
+        width: 300px;
+    }
+
+    .card img {
+        position: relative;
+        right: 60px;
+
+    }
+    
+    .card button {
+        position: relative;
+        right: 30px;
+    }
+
+    #card-1, #card-2 {
+        position: relative;
+        left: 30px;
+    }
+
+    #card-3 {
+        position: relative;
+        left: 5px;
+    }
+
     .subscribe-section {
         overflow: hidden;
     }
@@ -24,6 +86,11 @@
     .info-part {
         position: relative;
         right: 200px;
+    }
+    #subsribe-button {
+        width: 200px;
+        position: relative;
+        left: -100px;
     }
 }
 
