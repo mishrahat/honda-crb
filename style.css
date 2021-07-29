@@ -2,13 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-
-
-
 /* some styling  */
 
-button:hover {
+.button:hover {
  transform:scale(1.1);
+}
+
+/* media query part */
+
+@media only screen and (max-width: 600px) {
+    .user-3 {
+        position: relative;
+        right: 75px;
+    }
+    .subscribe-section {
+        overflow: hidden;
+    }
+    .subscribe-part {
+        padding-right: 500px;
+    }
+    .info-part {
+        position: relative;
+        right: 200px;
+    }
 }
 
 
